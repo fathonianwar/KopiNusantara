@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Kami - Kopi Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Logo Kopi Nusantara">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produk.html" class="active">Produk</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="promo.html">Promo</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2 class="detail-header">Koleksi Produk Kopi Terbaik</h2>
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <img src="img/produk1.png" alt="Biji Kopi Gayo Arabika">
+                    <div class="card-content">
+                        <h3>Biji Kopi Gayo Arabika</h3>
+                        <p>Rp 95.000 / 250gr</p>
+                        <a href="#detail-gayo" class="btn">Detail Produk</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/produk2.png" alt="Kopi Susu Literan">
+                    <div class="card-content">
+                        <h3>Kopi Susu Signature</h3>
+                        <p>Rp 50.000 / 1 Liter</p>
+                        <a href="#detail-susu" class="btn">Detail Produk</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/produk3.png" alt="Biji Kopi Bali Kintamani">
+                    <div class="card-content">
+                        <h3>Biji Kopi Bali Kintamani</h3>
+                        <p>Rp 88.000 / 250gr</p>
+                        <a href="#detail-kintamani" class="btn">Detail Produk</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="detail-page container" id="detail-gayo">
+            <h2 class="detail-header">Detail: Biji Kopi Gayo Arabika</h2>
+            <div class="product-detail-content">
+                <div class="product-detail-left">
+                    <img src="img/produk1.png" alt="Biji Kopi Gayo Arabika" class="product-detail-img">
+                </div>
+                <div class="product-detail-right">
+                    <h2>Biji Kopi Gayo Arabika</h2>
+                    <p class="price">Rp 95.000</p>
+                    <div class="description">
+                        <p><strong>Deskripsi:</strong> Kopi Gayo Arabika dikenal dengan tingkat keasaman yang seimbang, aroma herbal yang khas, serta rasa manis seperti cokelat. Cocok untuk metode seduh manual brew.</p>
+                    </div>
+                    <div class="varian">
+                        <p>Varian / Ukuran Tersedia:</p>
+                        <ul>
+                            <li>250 Gram (Harga tertera)</li>
+                            <li>500 Gram (Rp 180.000)</li>
+                            <li>Pilihan Gilingan: Halus, Medium, Kasar, atau Biji Utuh.</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-whatsapp" data-product="Biji Kopi Gayo Arabika">Pesan via WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="detail-page container" id="detail-susu">
+            <h2 class="detail-header">Detail: Kopi Susu Signature</h2>
+            <div class="product-detail-content">
+                <div class="product-detail-left">
+                    <img src="img/produk2.png" alt="Kopi Susu Literan" class="product-detail-img">
+                </div>
+                <div class="product-detail-right">
+                    <h2>Kopi Susu Signature</h2>
+                    <p class="price">Rp 50.000</p>
+                    <div class="description">
+                        <p><strong>Deskripsi:</strong> Perpaduan sempurna antara espresso robusta premium, susu segar, dan gula aren otentik. Cocok untuk dinikmati kapan saja, dijamin nagih!</p>
+                    </div>
+                    <div class="varian">
+                        <p>Varian / Ukuran Tersedia:</p>
+                        <ul>
+                            <li>1 Liter (Harga tertera)</li>
+                            <li>250 ml (Rp 20.000)</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary btn-whatsapp" data-product="Kopi Susu Signature">Pesan via WhatsApp</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section"><h4>Kopi Nusantara</h4><p>Menghadirkan cita rasa kopi asli Indonesia langsung ke cangkir Anda.</p></div>
+            <div class="footer-section"><h4>Jam Operasional</h4><p>Senin - Jumat: 08.00 - 20.00 WIB</p><p>Sabtu: 08.00 - 16.00 WIB</p><p>Minggu/Libur: Tutup</p></div>
+            <div class="footer-section"><h4>Media Sosial</h4><div class="social-media"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></div></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Kopi Nusantara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
